@@ -1,0 +1,107 @@
+<html>    
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="../styles/details.css">
+        <title>Detalles</title>
+    </head>
+
+    <body>
+        <header>
+            <div class="app-name center"><a href='index.html'>Superheroes and Villains - Finder</a></div>
+            <div class="favourite-router center">
+                <a href="favourites.html">Favoritos</a>
+            </div>
+        </header>
+
+        <!-- Notification Alert -->
+        <div id="alert" style="visibility:hidden" class="success">Success Message</div>
+        <div id="alert" style="visibility:hidden" class="failure">Error Message</div>
+
+
+        <div id="main-container">
+            <!-- A navigation bar -->
+            <div id="top-bar">
+                <div><a href="#powerstats">Estadísticas</a></div>
+                <div><a href="#appearance-target">Apariencia</a></div>
+                <div><a href="#biography-target">Biografía</a></div>
+                <div><a href="#occupation-target">Ocupación</a></div>
+                <div><a href="#connections-target">Conexiones</a></div>
+            </div>
+
+            <!-- Hero data will be appended here -->
+            <div id='data-container'>
+                <!-- Image of the hero -->
+                <div id="image">
+                    <img id="imagen"width="400" height="400">
+                    <img id="fav_btn" width="50" >
+                </div>
+
+                <div id="detail-container">
+                    <div class="detail-item">
+
+                        <!-- Powerstats bars -->
+                        <span class="anchor" id="powerstats"></span>
+                        <h1 id="powerstats" style="color:black;">Estadísticas</h1>
+                        <div id="stats-container">
+                            <div id="stat-names">
+                                
+                                <span>Combate</span>
+                                <span>Durabilidad</span>
+                                <span>Inteligencia</span>
+                                <span>Poder</span>
+                                <span>Velocidad</span>
+                                <span>Fuerza</span>
+                            </div>
+
+                            <div id="stat-bars">
+                                <div class="bar-container">
+                                    <div class="bar combat" style="width: 0%;">.</div>
+                                </div>
+                                <div class="bar-container">
+                                    <div class="bar durability" style="width: 0%;">.</div>
+                                </div>
+                                <div class="bar-container">
+                                    <div class="bar intelligence" style="width: 0%;">.</div>
+                                </div>
+                                <div class="bar-container">
+                                    <div class="bar power" style="width: 0%;">.</div>
+                                </div>
+                                <div class="bar-container">
+                                    <div class="bar speed" style="width: 0%;">.</div>
+                                </div>
+                                <div class="bar-container">
+                                    <div class="bar strength" style="width: 0%;">.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="detail-item">
+                        <span class="anchor" id="appearance-target"></span>
+                        <h1 style="color:black;">Apariencia</h1>
+                        <section id="appearance">...</section>
+                    </div>
+                    <div class="detail-item">
+                        <span class="anchor" id="biography-target"></span>
+                        <h1 style="color:black;">Biografía</h1>
+                        <section id="biography">...</section>
+                    </div>
+                    <div class="detail-item">
+                        <span class="anchor" id="occupation-target"></span>
+                        <h1 style="color:black;">Ocupación</h1>
+                        <section id="occupation">...</section>
+                    </div>
+                    <div class="detail-item">
+                        <span class="anchor" id="connections-target"></span>
+                        <h1 style="color:black;">Conexiones</h1>
+                        <section id="connections">...</section>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <script type="text/javascript" src="../scripts/details.js"></script>
+    </body>
+
+</html>
