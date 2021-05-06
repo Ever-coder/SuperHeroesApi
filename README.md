@@ -2,22 +2,22 @@
 ## Estructura del Proyecto
 #Contiene 3 folders:
 
-    &nbsp;├── assets
-    &nbsp;├── pages
-    &nbsp;│   ├──── details.html
-    &nbsp;│   ├──── favourites.html
-    &nbsp;│   ├──── index.html
-    &nbsp;│   └──── vertodos.html
-    &nbsp;├── scripts
-    &nbsp;│   ├──── details.js
-    &nbsp;│   ├──── favourites.js
-    &nbsp;│   ├──── index.js
-    &nbsp;│   └──── vertodos.js
-    &nbsp;└── styles
-    &nbsp;    ├──── details.css
-    &nbsp;    ├──── favourites.css
-    &nbsp;    ├──── index.css
-    &nbsp;    └──── vertodos.css
+    ├── assets
+    ├── pages
+    │   ├──── details.html
+    │   ├──── favourites.html
+    │   ├──── index.html
+    │   └──── vertodos.html
+    ├── scripts
+    │   ├──── details.js
+    │   ├──── favourites.js
+    │   ├──── index.js
+    │   └──── vertodos.js
+    └── styles
+        ├──── details.css
+        ├──── favourites.css
+        ├──── index.css
+        └──── vertodos.css
 
 #                            Intrucciones
 
